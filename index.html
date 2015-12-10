@@ -1,0 +1,14 @@
+<html>
+<head>
+	<script type="text/javascript" src="NotificationDesktop.js"></script>
+	<script type="text/javascript">
+		var options = {title:'NotificationDesktop', body:'body'};
+		noti = new NotificationDesktop(options);
+		//noti.show();
+	</script>
+</head>
+<body>
+	<button onclick="noti.show()">Trigger Notification</button>
+	<button onclick="noti.requestPermission()">Request</button>
+</body>
+</html>
